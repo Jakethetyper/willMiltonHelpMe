@@ -1,0 +1,46 @@
+.container.xl {
+    max-width: 800px;
+}
+
+body {
+    background-image: url(/img/background.avif);
+    background-size: cover;
+}
+:root {
+    --bs-font-sans-serif: "Rubik", sans-serif;
+}
+
+a { 
+    text-decoration: none;
+    color: var(--bs-dark)
+};
+
+.category__link img{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    transition: 1s all;
+}
+
+.category__link:hover {
+    transform: scale(1.1);
+}
+
+.category__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.822);
+}
+
+.category__img img{
+    width: 100%;
+    object-fit: auto;
+    border-radius: 10px;
+}
+
+.category__img--{
+    height: 300px;
+}
